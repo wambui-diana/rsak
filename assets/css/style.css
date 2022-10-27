@@ -632,6 +632,10 @@ section {
 .counter-style2 span.counter {letter-spacing: 0.55px; float: left; margin-right: 10px;}
 .counter-style2 i {float: right; line-height: 26px; margin: 0 10px 0 0}
 .counter-subheadline span {float: right;}  
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
 
 .medium-icon {
     font-size: 40px !important;
@@ -646,12 +650,12 @@ section {
 }
 
 .container1 h1 {
-  margin: 30px 0px 20px;
+  margin: 30px 80px 20px;
   color: #299740;
 }
 
 .container1 p {
-  margin: 0px 0px 50px;
+  margin: 0px 80px 50px;
 }
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
