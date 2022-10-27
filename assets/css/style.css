@@ -33,7 +33,7 @@ h6 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -190,7 +190,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 17px;
   color: #222222;
   white-space: nowrap;
   transition: 0.3s;
@@ -1714,11 +1714,19 @@ section {
 }
 
 .footer .footer-info .logo span {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
   font-family: var(--font-primary);
+}
+
+.footer .footer-info h5 {
+  text-transform: uppercase;
+  color: #299740;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer .footer-info p {
