@@ -1083,8 +1083,15 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #299740;
-  padding: 80px 0;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/slide/slide-1.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+@media (min-width: 1365px) {
+  .cta {
+    background-attachment: fixed;
+  }
 }
 
 .cta h3 {
