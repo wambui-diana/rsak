@@ -112,6 +112,18 @@ p {
   color: #299740;
 }
 
+/*For screens with a max-width of 439px and min-width of 280px*/
+@media(max-width: 439px) and (min-width: 280px)  {
+  #topbar {
+    display: none !important;
+  }
+
+  #header .logo img {
+    max-height: 80px !important;
+    object-fit: cover;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -609,6 +621,9 @@ section {
   color: #919191;
 }
 
+/*--------------------------------------------------------------
+# Road Traffic Statistics
+--------------------------------------------------------------*/
 .counter-section i { display:block; margin:0 0 10px}
 .counter-section span.counter { font-size:40px; color:#000; line-height:60px; display:block; font-family: "Oswald",sans-serif; letter-spacing: 2px}
 .counter-title{ font-size:12px; letter-spacing:2px; text-transform: uppercase}
@@ -631,12 +646,151 @@ section {
 }
 
 .container1 h1 {
-  margin: 30px 80px 20px;
+  margin: 30px 0px 20px;
   color: #299740;
 }
 
 .container1 p {
-  margin: 0px 80px 50px;
+  margin: 0px 0px 50px;
+}
+
+/*For screens with a max-width of 1899px and min-width of 1600px*/
+@media(max-width: 1899px) and (min-width: 1600px) {
+  .container1{
+    margin: -60px 0 0;
+    padding: 50px 150px;
+  }
+}
+
+/*For screens with a max-width of 1599px and min-width of 1400px*/
+@media(max-width: 1599px) and (min-width: 1400px) {
+  .container1{
+    margin: -60px 0 0;
+    padding: 50px 50px;
+  }
+}
+
+/*For screens with a max-width of 1399px and min-width of 1281px*/
+@media(max-width: 1399px) and (min-width: 1281px) {
+  .container1{
+    margin: -60px 0 0;
+    padding: 50px 80px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+}
+
+/*For screens with a max-width of 1280px and min-width of 1150px*/
+@media(max-width: 1280px) and (min-width: 1150px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 100px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+}
+
+/*For screens with a max-width of 1149px and min-width of 984px*/
+@media(max-width: 1149px) and (min-width: 984px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 110px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 983px) and (min-width: 700px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 80px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+}
+
+/*For screens with a max-width of 699px and min-width of 500px*/
+@media(max-width: 699px) and (min-width: 500px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 30px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+/*For screens with a max-width of 499px and min-width of 400px*/
+@media(max-width: 499px) and (min-width: 400px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 30px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .medium-icon {
+    width: 70px;
+  }
+
+  .counter-title {
+    margin-bottom: 10px !important;
+  }
+
+  .counter-section {
+    margin-bottom: 20px !important;
+  }
+}
+
+/*For screens with a max-width of 399px and min-width of 280px*/
+@media(max-width: 399px) and (min-width: 280px) {
+  .container1{
+    margin: -60px 0 -50px;
+    padding: 50px 30px;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .medium-icon {
+    width: 70px;
+  }
+
+  .counter-title {
+    margin-bottom: 10px !important;
+  }
+
+  .counter-section {
+    margin-bottom: 20px !important;
+  }
 }
 
 /*--------------------------------------------------------------
