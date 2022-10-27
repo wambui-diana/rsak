@@ -650,12 +650,12 @@ section {
 }
 
 .container1 h1 {
-  margin: 30px 80px 20px;
+  margin: 30px 0px 20px;
   color: #299740;
 }
 
 .container1 p {
-  margin: 0px 80px 50px;
+  margin: 0px 0px 50px;
 }
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
@@ -713,7 +713,7 @@ section {
 /*For screens with a max-width of 983px and min-width of 700px*/
 @media(max-width: 983px) and (min-width: 700px) {
   .container1{
-    margin: -60px 0 -50px;
+    margin: -60px 0 -50px ;
     padding: 50px 80px;
   }
 
