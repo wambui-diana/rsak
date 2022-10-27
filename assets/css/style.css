@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -33,7 +34,7 @@ h6 {
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -2367,6 +2368,10 @@ span.email-notes {
   padding-top: 80px;
 }
 
+.special-bg {
+  background-color: #f8fcf9;
+}
+
 .features .features-item+.features-item {
   margin-top: 100px;
 }
@@ -2399,7 +2404,7 @@ span.email-notes {
 .features .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: #299470;
 }
 
 .features .features-item p:last-child {
