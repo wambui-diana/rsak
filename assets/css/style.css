@@ -1760,7 +1760,6 @@ section {
   letter-spacing: 1px;
   color: #fff;
   font-family: var(--font-primary);
-  height: auto;
 }
 
 .footer .footer-info h5 {
@@ -1868,6 +1867,10 @@ section {
 /*For screens with a max-width of 499px and min-width of 400px*/
 @media(max-width: 373px) and (min-width: 327px) {
   .footer .footer-info .logo p {
+    font-size: 15px;
+  }
+
+  .footer .footer-info h5 {
     font-size: 15px;
   }
 }
