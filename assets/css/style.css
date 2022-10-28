@@ -1125,6 +1125,7 @@ section {
   background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/slide/slide-1.jpg") center center;
   background-size: cover;
   padding: 100px 0;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 1365px) {
