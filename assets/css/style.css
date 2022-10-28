@@ -652,18 +652,18 @@ section {
 }
 
 .container1 h1 {
-  margin: 30px 0px 20px;
+  margin: 30px 80px 20px;
   color: #299740;
 }
 
 .container1 p {
-  margin: 0px 0px 50px;
+  margin: 0px 80px 50px;
 }
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
 @media(max-width: 1899px) and (min-width: 1600px) {
   .container1{
-    margin: -60px 0 0;
+    margin: -60px 0 0 !important;
     padding: 50px 150px;
   }
 }
@@ -671,7 +671,7 @@ section {
 /*For screens with a max-width of 1599px and min-width of 1400px*/
 @media(max-width: 1599px) and (min-width: 1400px) {
   .container1{
-    margin: -60px 0 0;
+    margin: -60px 0 0 !important;
     padding: 50px 50px;
   }
 }
@@ -679,8 +679,8 @@ section {
 /*For screens with a max-width of 1399px and min-width of 1281px*/
 @media(max-width: 1399px) and (min-width: 1281px) {
   .container1{
-    margin: -60px 0 0;
-    padding: 50px 80px;
+    margin: -60px 0 0 !important;
+    padding: 50px 0px !important;
   }
 
   .container1 h1 {
@@ -691,8 +691,8 @@ section {
 /*For screens with a max-width of 1280px and min-width of 1150px*/
 @media(max-width: 1280px) and (min-width: 1150px) {
   .container1{
-    margin: -60px 0 -50px;
-    padding: 50px 100px;
+    margin: -60px 0 -50px !important;
+    padding: 50px 20px !important;
   }
 
   .container1 h1 {
@@ -703,8 +703,8 @@ section {
 /*For screens with a max-width of 1149px and min-width of 984px*/
 @media(max-width: 1149px) and (min-width: 984px) {
   .container1{
-    margin: -60px 0 -50px;
-    padding: 50px 110px;
+    margin: -60px 0 -50px !important;
+    padding: 50px 0px !important;
   }
 
   .container1 h1 {
@@ -716,11 +716,16 @@ section {
 @media(max-width: 983px) and (min-width: 700px) {
   .container1{
     margin: -60px 0 -50px ;
-    padding: 50px 80px;
+    padding: 50px 0;
   }
 
   .container1 h1 {
     font-size: 32px;
+    margin: 30px 40px 20px;
+  }
+
+  .container1 p {
+    margin: 0px 40px 50px;
   }
 }
 
@@ -728,11 +733,17 @@ section {
 @media(max-width: 699px) and (min-width: 500px) {
   .container1{
     margin: -60px 0 -50px;
-    padding: 50px 30px;
+    padding: 50px 0px !important;
   }
 
   .container1 h1 {
     font-size: 32px;
+    margin: 30px 25px 20px;
+  }
+
+  .container1 p {
+    margin: 0px 25px 50px !important;
+    width: 490px;
   }
 
   .container {
@@ -745,11 +756,18 @@ section {
 @media(max-width: 499px) and (min-width: 400px) {
   .container1{
     margin: -60px 0 -50px;
-    padding: 50px 30px;
+    padding: 50px 0px;
   }
 
   .container1 h1 {
     font-size: 32px;
+    margin: 30px 30px 20px;
+    width: 390px;
+  }
+
+  .container1 p {
+    margin: 0px 30px 20px;
+    width: 390px;
   }
 
   .container {
@@ -779,6 +797,13 @@ section {
 
   .container1 h1 {
     font-size: 32px;
+    margin: 30px 0px 20px;
+    width: 390px;
+  }
+
+  .container1 p {
+    margin: 0px 0px 20px;
+    width: 390px;
   }
 
   .container {
