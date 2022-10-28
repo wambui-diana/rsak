@@ -257,11 +257,4 @@
     }
   });
 
-})()
-
-jQuery(document).ready(function($) {
-  $('.timer').counterUp({
-      delay: 20,
-      time: 1500
-  });
-});
+})()  
