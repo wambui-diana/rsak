@@ -1754,12 +1754,13 @@ section {
   margin-right: 6px;
 }
 
-.footer .footer-info .logo span {
+.footer .footer-info .logo p {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
   font-family: var(--font-primary);
+  height: auto;
 }
 
 .footer .footer-info h5 {
@@ -1855,6 +1856,27 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/*For screens with a max-width of 405px and min-width of 380px*/
+@media(max-width: 405px) and (min-width: 374px) {
+  .footer .footer-info .logo p {
+    font-size: 18px;
+  }
+}
+
+/*For screens with a max-width of 499px and min-width of 400px*/
+@media(max-width: 373px) and (min-width: 327px) {
+  .footer .footer-info .logo p {
+    font-size: 15px;
+  }
+}
+
+/*For screens with a max-width of 499px and min-width of 400px*/
+@media(max-width: 326px) and (min-width: 280px) {
+  .footer .footer-info .logo p {
+    font-size: 13px;
+  }
 }
 
 /*--------------------------------------------------------------
