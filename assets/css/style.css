@@ -2213,6 +2213,12 @@ section {
   min-height: 300px;
 }
 
+.safety .image13 {
+  background: url("../img/awareness.jpg") center top no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
 .descr-icon {
   width: 45px;
   margin-top: -30px;
