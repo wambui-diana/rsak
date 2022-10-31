@@ -2094,17 +2094,25 @@ section {
 /*--------------------------------------------------------------
 # Safety
 --------------------------------------------------------------*/
+.safety {
+  width: 100%;
+}
+
 .safety .content {
   padding: 30px 0;
 }
 
-.safety .pedestrian {
+.pedestrian {
   background-color: #f8fcf9 !important;
 }
 
 .safety .content h3 {
   font-weight: 700;
   font-size: 34px;
+  font-family: 'Oswald';
+  color: #299740;
+  border-left: 6px solid #299740;
+  padding-left: 10px;
 }
 
 .safety .content p {
@@ -2174,6 +2182,13 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+
+.descr-icon {
+  width: 40px;
+  margin-top: -30px;
+}
+
+
 
 @media (max-width: 991px) {
   .safety .image {
