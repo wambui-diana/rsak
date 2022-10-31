@@ -2190,13 +2190,25 @@ section {
 }
 
 .safety .image9 {
-  background: url("../img/slide-3.jpg") center left no-repeat;
+  background: url("../img/slide-3.jpg") center center no-repeat;
   background-size: cover;
   min-height: 300px;
 }
 
 .safety .image10 {
   background: url("../img/training-school.jpg") center left no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.safety .image11 {
+  background: url("../img/emergency.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.safety .image12 {
+  background: url("../img/safety.jpg") center center no-repeat;
   background-size: cover;
   min-height: 300px;
 }
