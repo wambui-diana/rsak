@@ -2183,6 +2183,18 @@ section {
   min-height: 300px;
 }
 
+.safety .image8 {
+  background: url("../img/slide-1.jpg") center left no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.safety .image9 {
+  background: url("../img/slide-3.jpg") center left no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
 .descr-icon {
   width: 40px;
   margin-top: -30px;
