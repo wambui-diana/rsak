@@ -682,6 +682,9 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
+  border-left: 6px solid #299740;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 .about p {
@@ -728,6 +731,20 @@ section {
   border: 2px solid #299740;
   color: #299740;
   background-color: #fff;
+}
+
+.objective {
+  display: flex;
+}
+
+.objective p {
+  margin-bottom: 10px !important;
+}
+
+.objective-icon {
+  width: 20px;
+  height: 100%;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1756,7 +1773,7 @@ section {
   font-weight: 700;
   font-size: 34px;
   font-family: 'Oswald';
-  color: #299740;
+  color: #000;
   border-left: 6px solid #299740;
   padding-left: 10px;
 }
