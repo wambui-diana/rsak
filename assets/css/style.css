@@ -1731,7 +1731,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #fbfbfb;
+  background: #f8fcf9;
   min-height: 40px;
 }
 
@@ -1757,8 +1757,7 @@ section {
 }
 
 .breadcrumbs ol li+li {
-  padding-left: 10px;
-  font-family: 'Oswald';
+  padding-left: 8px;
 }
 
 .breadcrumbs ol li+li::before {
