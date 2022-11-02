@@ -2387,9 +2387,9 @@ section {
   background-color: #f5f6f7;
 }
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
   .why-us .our-story {
-    padding-right: 35%;
+    padding: 40px 20px;
   }
 }
 
