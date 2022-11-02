@@ -2760,6 +2760,8 @@ section {
 
 .select {
   width: 100%;
+  font-size: 15px;
+  font-family: 'Manrope';
 }
 
 .select-label {
@@ -2770,6 +2772,14 @@ section {
   background-color: #fff;
   position: absolute;
   color: #bfbfbf;
+}
+
+.select {
+  border: 1px solid #ced4da;
+}
+
+.select:focus {
+  border-color: #299740 !important;
 }
 
 @media (max-width: 767px) {
