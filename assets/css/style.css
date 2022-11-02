@@ -2705,6 +2705,12 @@ section {
   }
 }
 
+@media (max-width: 400px) {
+  .pricing h4  {
+    font-size: 40px;
+  }
+}
+
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
   font-size: 1rem;
   line-height: 2.15;
