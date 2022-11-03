@@ -2646,7 +2646,7 @@ section {
   font-weight: 500;
   font-family: var(--font-primary);
   transition: 0.3s;
-  border: 1px solid #299740;
+  border: 2px solid #299740;
 }
 
 .pricing .buy-btn:hover {
