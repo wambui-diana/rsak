@@ -207,71 +207,39 @@
   <section class="donate-area relative section-gap" id="donate">
     <div class="overlay overlay-bg"></div>
     <div class="container">
-      <div class="row d-flex justify-content-end">
-        <div class="col-lg-6 col-sm-12 pb-80 header-text">
-          <h1>Donate Now</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore  et dolore magna aliqua.
-          </p>
+        <div class="section-title donate-title">
+          <h2>Make A Donation</h2>
         </div>
-      </div>
+      
       <div class="row donate-info d-flex justify-content-center">
         <div class="col-lg-6 contact-left">
           <div class="single-info">
-            <h4>Divided Evenly</h4>
+            <h4>Membership</h4>
             <p>
-              inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              Automatic Bronze membership for donations above Ksh. 30,000.<br> 
             </p>
           </div>
           <div class="single-info">
-            <h4>Transperancy All the Way</h4>
+            <h4>Transparancy All the Way</h4>
             <p>
-              inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              All proceeds accounted for in the annual RSAK fiscal report.<br>
             </p>
           </div>
           <div class="single-info">
-            <h4>Trustworthy</h4>
+            <h4>Community</h4>
             <p>
-              inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+               Leave a comment on the donor wall and let's get to know each other! <br>
             </p>
           </div>
         </div>
 
         <div class="col-lg-6 contact-right">
-          <form class="booking-form" id="myForm" action="donate.php">
-               <div class="row">
-                 <div class="col-lg-12 d-flex flex-column">
-                   <select name="type" class="app-select form-control" required>
-                    <option data-display="Project you want to donate">Project you want to donate</option>
-                    <option value="1">Donate type 1</option>
-                    <option value="2">Donate type 2</option>
-                    <option value="3">Donate type 3</option>
-                  </select>
-                 </div>
-                 <div class="col-lg-6 d-flex flex-column">
-                  <input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="form-control mt-20" required="" type="text" required>
-                </div>
-                <div class="col-lg-6 d-flex flex-column">
-                  <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
-                </div>
-                <div class="col-lg-12 d-flex flex-column">
-                  <input name="amound" placeholder="Donation amount (USD)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20" required="" type="text">
-
-                  <textarea class="form-control mt-20" name="message" placeholder="Your Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Message'" required=""></textarea>
-                </div>
-
-                <div class="col-lg-12 d-flex justify-content-end send-btn">
-                  <button class="submit-btn primary-btn mt-20 text-uppercase ">donate<span class="lnr lnr-arrow-right"></span></button>
-                </div>
-
-                <div class="alert-msg"></div>
-              </div>
-            </form>
-            <p class="payment-method">
-              We Accept :   <img src="assets/img/payment.png" alt="">
-            </p>
+          <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/a-little-goes-a-long-way?default_interval=o&show_content=true" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 100%; min-width: 100%; max-height:none!important"></iframe>
+    
         </div>
       </div>
+
+      <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe frameborder="0" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/a-little-goes-a-long-way?only_donor_wall=true" style="width: 100%; max-width:500px; min-width:310px; max-height: none !important;"></iframe>
     </div>
   </section>
   <!-- End donate Area -->
@@ -356,80 +324,89 @@
                 <div class="card-body p-md-5 text-black">
                   <h3 class="mb-5 text-uppercase">Membership Registration Form</h3>
   
-                  <div class="row">
-                    <div class="col-md-6 mb-4">
-                      <div class="form-outline">
-                        <input type="text" id="form3Example1m" class="form-control form-control-lg" placeholder="First Name"/>
+                  <form action="https://formsubmit.co/9bc149dda2009a1b2773bdc243e48119" method="POST">
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1m" name="First Name" class="form-control form-control-lg" placeholder="First Name" required/>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" id="form3Example1n" name="Last Name" class="form-control form-control-lg" placeholder="Last Name" required/>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-md-6 mb-4">
+
+  
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example8" name="Email Address" class="form-control form-control-lg" placeholder="Email Address" required/>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example9" name="Phone Number" class="form-control form-control-lg" placeholder="Phone Number" required/>
+                    </div>
+    
+                    <div class="mb-4 pb-2">
                       <div class="form-outline">
-                        <input type="text" id="form3Example1n" class="form-control form-control-lg" placeholder="Last Name"/>
+                          <label class="form-label select-label">Choose Option</label>
+                          <select class="select form-control-lg" name="Membership Type" required>
+                              <i class="bi bi-check"></i>
+                              <option value="1">Membership Type</option>
+                              <option value="Bronze">Bronze</option>
+                              <option value="Silver">Silver</option>
+                              <option value="Gold">Gold</option>
+                          </select>
                       </div>
                     </div>
-                  </div>
 
-  
-                  <div class="form-outline mb-4">
-                    <input type="text" id="form3Example8" class="form-control form-control-lg" placeholder="Email Address"/>
-                  </div>
+                    <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+    
+                      <h6 class="mb-0 me-4">Gender: </h6>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="Gender" id="femaleGender"
+                          value="Female" required />
+                        <label class="form-check-label" for="femaleGender">Female</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="Gender" id="maleGender"
+                          value="Male" />
+                        <label class="form-check-label" for="maleGender">Male</label>
+                      </div>
+    
+                    </div>
 
-                  <div class="form-outline mb-4">
-                    <input type="text" id="form3Example9" class="form-control form-control-lg" placeholder="Phone Number"/>
-                  </div>
-  
-                  <div class="mb-4 pb-2">
-                    <div class="form-outline">
-                        <label class="form-label select-label">Choose Option</label>
-                        <select class="select form-control-lg">
-                            <i class="bi bi-check"></i>
-                            <option value="1">Membership Type</option>
-                            <option value="2">Bronze</option>
-                            <option value="3">Silver</option>
-                            <option value="4">Gold</option>
-                        </select>
-                    </div>
-                  </div>
+                    <button type="submit" id="appform" class="app-form">Click Here To download The Application Form</button>
 
-                  <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
-  
-                    <h6 class="mb-0 me-4">Gender: </h6>
-  
-                    <div class="form-check form-check-inline mb-0 me-4">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
-                        value="option1" />
-                      <label class="form-check-label" for="femaleGender">Female</label>
+                    <div class="row align-items-center py-3 upload">
+                      <div class="col-md-3">
+        
+                        <h6 class="mb-3">Upload Form</h6>
+        
+                      </div>
+                      <div class="col-md-9 pe-5">
+        
+                        <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                        <div class="small text-muted mt-2">Upload the Application Form or any other relevant file. Max file
+                          size 50 MB</div>
+        
+                      </div>
                     </div>
-  
-                    <div class="form-check form-check-inline mb-0 me-4">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
-                        value="option2" />
-                      <label class="form-check-label" for="maleGender">Male</label>
-                    </div>
-  
-                  </div>
 
-                  <button type="submit" id="appform" class="app-form">Click Here To download The Application Form</button>
-
-                  <div class="row align-items-center py-3 upload">
-                    <div class="col-md-3">
-      
-                      <h6 class="mb-3">Upload Form</h6>
-      
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="col-md-9 pe-5">
-      
-                      <input class="form-control form-control-lg" id="formFileLg" type="file" />
-                      <div class="small text-muted mt-2">Upload the Application Form or any other relevant file. Max file
-                        size 50 MB</div>
-      
+    
+                    <div class="d-flex justify-content-end pt-3">
+                      <button type="reset" class="btn btn-light btn-lg">Reset All</button>
+                      <button target="_blank" type="submit" class="btn btn-warning btn-lg ms-2">Submit Form</button>
                     </div>
-                  </div>
-  
-                  <div class="d-flex justify-content-end pt-3">
-                    <button type="button" class="btn btn-light btn-lg">Reset All</button>
-                    <button type="button" class="btn btn-warning btn-lg ms-2">Submit Form</button>
-                  </div>
+                    <input type="hidden" name="_captcha" value="false">
+                  </form>
   
                 </div>
               </div>
