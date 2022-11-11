@@ -2847,7 +2847,7 @@ section {
 }
 
 .donate-area .header-text h1{
-  color:#fff;
+  color:#299740;
   margin-bottom:25px;
 }
 
@@ -2938,4 +2938,43 @@ section {
   background: none;
   color: #fff;
   border: 2px solid #299740;
+}
+
+/*--------------------------------------------------------------
+# Resource Center
+--------------------------------------------------------------*/
+.resource-row {
+  margin-top: -50px;
+}
+
+.resource-row .card {
+  padding: 10px;
+}
+
+.resource-row .card-title {
+  color: #299740;
+  font-size: 22px;
+}
+
+.rsc-form {
+  border: 2px solid #299740;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  background-color: #299740;
+}
+
+.rsc-form:hover {
+  border: 2px solid #299740;
+  color: #299740;
+  background-color: #fff;
 }
