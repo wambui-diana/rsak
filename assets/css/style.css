@@ -2746,6 +2746,10 @@ section {
   object-position: 40% 100%;
 }
 
+.select-icon {
+  padding-right: 5px !important;
+}
+
 .form-outline input,
 .form-outline select {
   height: 50px;
@@ -2960,6 +2964,10 @@ section {
 --------------------------------------------------------------*/
 .resource-row {
   margin-top: -50px;
+}
+
+.resource-row2 {
+  margin-top: -40px;
 }
 
 .resource-row .card {
