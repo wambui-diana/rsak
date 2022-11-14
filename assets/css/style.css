@@ -3005,3 +3005,33 @@ section {
   color: #299740;
   background-color: #fff;
 }
+
+.button-cont {
+  display: flex;
+}
+
+.body-cam-video {
+  margin-left: 10px;
+}
+
+.body-cam-video{
+  border: 2px solid #299740;
+  border-radius: 5px;
+  color: #299740;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  background-color: #fff;
+}
+
+.body-cam-video:hover {
+  color: #fff;
+  background-color: #299740;
+}
