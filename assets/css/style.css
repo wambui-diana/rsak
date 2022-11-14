@@ -2750,7 +2750,7 @@ section {
 }
 
 .select-icon {
-  padding-right: 5px !important;
+  margin-right: 5px !important;
 }
 
 .form-outline input,
@@ -2819,7 +2819,8 @@ section {
   border: 1px solid #ced4da;
 }
 
-.select:focus {
+.select:focus,
+.select:active {
   border-color: #299740 !important;
 }
 
