@@ -1090,7 +1090,6 @@ section {
 }
 
 .team .member img {
-  object-fit: cover;
   width: 100%;
   height: auto;
   border-radius: 50%;
