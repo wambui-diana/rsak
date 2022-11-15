@@ -3035,3 +3035,102 @@ section {
   color: #fff;
   background-color: #299740;
 }
+
+/*--------------------------------------------------------------
+# Pagination
+--------------------------------------------------------------*/
+.page-cont {
+  position: relative;
+  margin: 30px auto 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page-cont-hr {
+  width: 100% !important;
+  color: #000 !important;
+  background-color: #000 !important;
+  height: 1px !important;
+  border-width: 0;
+  margin-top: 10px !important;
+}
+
+.pagination1 {
+  display: inline-block !important;
+  vertical-align: middle;
+  overflow: hidden;
+  background-color: #fff !important;
+}
+
+.pagination1 li{
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination1 li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 11px;
+  background-color: transparent;
+  list-style: none;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+
+.pagination1 li:hover {
+  background-color: #299740 !important;
+  color: #fff;
+}
+
+.previous-page, .next-page{
+  background-color: #299740;
+  color: #fff;
+  width: 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  list-style: none;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-family: 'Manrope';
+  font-size: 14px;
+  padding: 16px;
+}
+
+.previous-page:hover{
+  transform: translateX(-5px);
+  overflow: hidden;
+}
+
+.next-page:hover{
+  transform: translateX(5px);
+}
+
+.current-page, .dots{
+  background: #ccc;
+  width: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.page-cont .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #299740;
+  border: none;
+}
+
+.page-cont .active{
+  background-color: #299740;
+  color: #fff;
+}
+
+.page-cont .disable{
+  background: #ccc;
+}
