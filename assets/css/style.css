@@ -1594,13 +1594,13 @@ section {
 }
 
 /*For screens with a max-width of 405px and min-width of 380px*/
-@media(max-width: 405px) and (min-width: 374px) {
+@media(max-width: 423px) and (min-width: 374px) {
   .footer .footer-info .logo p {
     font-size: 18px;
   }
 }
 
-/*For screens with a max-width of 499px and min-width of 400px*/
+/*For screens with a max-width of 373px and min-width of 327px*/
 @media(max-width: 373px) and (min-width: 327px) {
   .footer .footer-info .logo p {
     font-size: 15px;
@@ -1611,7 +1611,7 @@ section {
   }
 }
 
-/*For screens with a max-width of 499px and min-width of 400px*/
+/*For screens with a max-width of 326px and min-width of 280px*/
 @media(max-width: 326px) and (min-width: 280px) {
   .footer .footer-info .logo p {
     font-size: 13px;
@@ -1946,6 +1946,11 @@ section {
   padding-top: 40px !important;
 }
 
+.future {
+  padding-bottom: 0px !important;
+  margin-bottom: -30px;
+}
+
 @media (max-width: 991px) {
   .safety .image {
     text-align: center;
@@ -1959,6 +1964,10 @@ section {
     margin-top: 0px !important;
     padding-top: 40px !important;
   }
+
+  .future-cont {
+    padding-top: 0px !important;
+  }
 }
 
 @media (max-width: 667px) {
@@ -1969,6 +1978,10 @@ section {
  .gvt {
     margin-top: 0px !important;
     padding-top: 40px !important;
+  }
+
+  .future-cont {
+    padding-top: 0px !important;
   }
 }
 
