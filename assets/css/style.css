@@ -1951,6 +1951,10 @@ section {
   margin-bottom: -30px !important;
 }
 
+.future-cont {
+  padding-top: 10px !important;
+}
+
 @media (max-width: 991px) {
   .safety .image {
     text-align: center;
