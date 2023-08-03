@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -35,8 +36,8 @@ h6 {
 }
 
 p {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -197,8 +198,8 @@ p {
   color: #222222;
   white-space: nowrap;
   transition: 0.3s;
-  font-family: 'Noto Serif JP', sans-serif;
-  font-weight: 350;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 
 .navbar a i,
@@ -293,6 +294,10 @@ p {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+
+  .navbar .getstarted{
+    width: 150px !important;
+  }
 }
 
 /**
@@ -311,7 +316,7 @@ p {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .mobile-nav-toggle {
     display: block !important;
   }
@@ -1502,11 +1507,12 @@ section {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer .footer-info p {
   font-size: 14px;
-  font-family: var(--font-primary);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer .social-links a {
@@ -1556,6 +1562,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer .footer-links ul li:first-child {
@@ -1581,6 +1588,7 @@ section {
   text-align: center;
   border-top: 2px solid #299740;
   padding-top: 20px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer .credits {
