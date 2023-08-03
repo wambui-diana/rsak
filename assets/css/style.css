@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 body {
@@ -3052,6 +3050,7 @@ section {
   margin: 30px auto 50px;
   text-align: center;
   overflow: hidden;
+  background: none !important;
 }
 
 .page-cont-hr {
@@ -3067,13 +3066,14 @@ section {
   display: inline-block !important;
   vertical-align: middle;
   overflow: hidden;
-  background-color: #fff !important;
+  background: none !important;
 }
 
 .pagination1 li{
   display: inline-block;
   margin: 5px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .pagination1 li a {
@@ -3104,7 +3104,7 @@ section {
   border: none;
   outline: none;
   overflow: hidden;
-  font-family: 'Manrope';
+  font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   padding: 16px;
 }
@@ -3121,7 +3121,7 @@ section {
 .current-page, .dots{
   background: #ccc;
   width: auto;
-  border-radius: 50%;
+  border-radius: 50% !important;
   cursor: pointer;
   overflow: hidden;
   padding: 16px;
@@ -3132,6 +3132,7 @@ section {
   color: #fff;
   background-color: #299740;
   border: none;
+  margin: 0 !important;
 }
 
 .page-cont .active{
