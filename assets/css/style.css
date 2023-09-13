@@ -1505,6 +1505,7 @@ section {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 500 !important;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -1597,6 +1598,13 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/*For screens with a max-width of 1399px and min-width of 992px*/
+@media(max-width: 1399px) and (min-width: 992px) {
+  .footer .footer-info .logo p {
+    font-size: 16px;
+  }
 }
 
 /*For screens with a max-width of 405px and min-width of 380px*/
