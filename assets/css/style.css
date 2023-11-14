@@ -3438,6 +3438,7 @@ section {
   height: 100%;
   object-fit: cover;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .main-blog-content {
