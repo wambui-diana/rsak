@@ -1465,6 +1465,7 @@ section {
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
+    margin-top: 60px !important;
   }
 
   .breadcrumbs ol {
@@ -3669,6 +3670,10 @@ section {
   .share-container {
       margin: 50px 100px;
   }
+
+  .other-blog-card-title h2 {
+    font-size: 35px;
+  }
 }
 
 /*For screens with a max-width of 1280px and min-width of 1150px*/
@@ -3737,6 +3742,10 @@ section {
 
   .share-container {
       margin: 50px 100px;
+  }
+
+  .other-blog-card-title h2 {
+    font-size: 35px;
   }
 }
 
@@ -3848,6 +3857,10 @@ section {
 
   .share-container {
       margin: 50px 60px;
+  }
+
+  .other-blog-card-title h2 {
+    font-size: 30px;
   }
 }
 
@@ -3998,6 +4011,10 @@ section {
 
   .share-container {
       margin: 50px 60px;
+  }
+
+  .other-blog-card-title h2 {
+    font-size: 30px;
   }
 }
 
@@ -4154,6 +4171,10 @@ section {
 
   .share-container {
       margin: 50px 40px;
+  }
+
+  .other-blog-card-title h2 {
+    font-size: 30px;
   }
 }
 
@@ -4341,6 +4362,10 @@ section {
   .share-icons img {
       width: 30px;
       margin: -5px 5px 0;
+  }
+
+  .other-blog-card-title h2 {
+    font-size: 30px;
   }
 }
 
@@ -4533,7 +4558,7 @@ section {
 
   .gallery-content {
       margin: 20px 0 50px;
-      padding: 10px 30px 0 0;
+      padding: 10px 30px 0;
   }
 
   .gallery-content {
