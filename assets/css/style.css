@@ -807,6 +807,14 @@ section {
   .why-us .content-item {
     padding: 40px 0;
   }
+
+  .why-us .col-lg-7 h2 {
+    font-size: 35px;
+  }
+
+  .why-us .col-lg-7 h3 {
+    font-size: 30px !important;
+  }
 }
 
 /*--------------------------------------------------------------
