@@ -809,7 +809,7 @@ section {
   }
 
   .why-us .col-lg-7 h2 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   .why-us .col-lg-7 h3 {
