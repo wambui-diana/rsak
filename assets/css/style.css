@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #444444;
   overflow-x: hidden !important;
   scroll-behavior: smooth !important;
@@ -2686,7 +2686,7 @@ section {
 
 .form-outline ::placeholder {
   font-size: 15px;
-  font-family: 'Manrope';
+  font-family: 'Quicksand';
 }
 
 .form-outline input:focus,
@@ -2710,7 +2710,7 @@ section {
 }
 
 .btn-warning {
-  border: none;
+  border: 2px solid #299740;
   border-radius: 5px;
   background-color: #299740;
   color: #fff;
@@ -2877,7 +2877,6 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Manrope', sans-serif;
   transition: 0.3s;
   margin-top: 30px;
   background-color: #299740;
