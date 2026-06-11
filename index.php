@@ -1,0 +1,861 @@
+<?php include 'db.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Road Safety Association of Kenya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/rsakfavicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+  
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:info@roadsafetyassociation.com">info@roadsafetyassociationofkenya.org</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +254 715 238 797
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://www.facebook.com/safe.road.kenya/" class="facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+     
+      <a href="index.html" class="logo me-auto"><img src="assets/img/newrsaklogo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="#services"><span>Road Safety</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="vehiclesafety.html">Vehicle Safety</a></li>
+              <li><a href="roaduser.html">Road Users Safety</a></li>
+              <li><a href="roaddesign.html">Road Design</a></li>
+              <li><a href="training.html">Training Institutions</a></li>
+              <li><a href="gvtaction.html">Government Action</a></li>
+              <li><a href="media.html">Media Awareness</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="recentnews.html">Recent News</a></li>
+          <li><a class="nav-link" href="resource.html">Resource Center</a></li>
+          <li><a class="nav-link" href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQs</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted" href="membership.html">Join Us Today</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-2.jpg);">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Road Safety <span>Awareness</span></h2>
+              <p class="animate__animated animate__fadeInUp">Keeping Kenyan Roads Safe For Everyone.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/mission.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Our Mission</h2>
+              <p class="animate__animated animate__fadeInUp">To spread awareness of Road Safety in Kenya, the major causes of road accidents and the road safety policies and guidelines.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Our Vision</h2>
+              <p class="animate__animated animate__fadeInUp">We look forward to someday attaining “zero lives lost” on our roads due to negligence.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Facts Section ======= -->
+  <section class="facts section-bg" data-aos="fade-up">
+    <div class="container">
+
+      <div class="row counters">
+        <h1>Road Traffic Statistics as at 31st December, 2024</h1>
+        <h5>Road Traffic injuries (RTIs) are among the ten leading causes of death worldwide.</h5>
+
+        <div class="col-lg-3 col-6 text-center">
+          <img class="medium-icon" src="assets/img/accident1.png">
+          <span data-purecounter-start="0" data-purecounter-end="22050" data-purecounter-duration="2" class="purecounter"></span>
+          <p>Accidents</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <img class="medium-icon" src="assets/img/accident.png">
+          <span data-purecounter-start="0" data-purecounter-end="4748" data-purecounter-duration="2" class="purecounter"></span>
+          <p>Deaths</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <img class="medium-icon" src="assets/img/serious.png">
+          <span data-purecounter-start="0" data-purecounter-end="10662" data-purecounter-duration="2" class="purecounter"></span>
+          <p>Seriously Injured</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <img class="medium-icon" src="assets/img/slightly.png">
+          <span data-purecounter-start="0" data-purecounter-end="6676" data-purecounter-duration="2" class="purecounter"></span>
+          <p>Slightly Injured</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Facts Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Our Profile</h3>
+            <p>Road Safety Association of Kenya was established in 2013, by like-minded individuals, drawn from the corporate sector. This came at a time when road accidents were a norm in Kenya. It was apparent then that, the corporate were the most affected, by loss of skilled manpower, financial implications and time loss. As they say prevention is better than cure, and to nip this in the bud RSAK was formed. It served as a platform to advocate for Road safety. However, they realized earlier on, unless action was taken correctively by the government, members of the public and private sector, things would not change.</p>
+            <p>Over the years, they have lobbied, provided civic education and taken to task, regulatory Authorities, charged with keeping Kenya's safe on our roads. To date, we are over 150 corporate members and still counting. Our mission is to advice the government agencies where necessary on matters road safety.</p>
+            <br>
+
+            <h3>Our Objectives</h3>
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To develop and promote road safety education through education, publicity campaigns, development of training materials and a range of publications focusing on safe road use which will result in the reduction of road accidents in Kenya.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To develop a research, analysis and statistics data base on road safety and transport in Kenya.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To promote and encourage adtherence to laws, rules and regulations governing road use.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To assist in the implementation of laws, rules and regulations which pertains to road safety.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To examine the analysis of up to date trends of road deaths,injuries and related problems and seek solutions for the same by engaging relevant stakeholders.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To submit proposals to the relevant authorities for providing and improving facilities for road users and transport users.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To develop and/or promote products and incentives that promotes and improves road safety.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To seek technical and financial support for purposes of development of road safety in Kenya.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To strengthen and promote the cooperation between stakeholders in the transport industry across Kenya.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To organize seminars, meetings and conferences for the better
+                management and development of road safety practices.</p>
+            </div>
+
+            <div class="objective">
+              <img class="objective-icon" src="assets/img/check-mark.png">
+              <p>To do other things for the advancement of the general safety and awareness of the people of Kenya, and undertake all such activities towards the attainment of the above objects.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/rsak-chairman2.jpg" alt="">
+              <h4>David Kiarie</h4>
+              <span>Chairman</span>
+              <p>Armed with a vision of #zeroliveslost, David's mission is to eradicate road carnage on our roads. After enduring a life-changing experience from a road accident, his passion for road safety is rivaled to none.</p>
+              <!--<div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>-->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/rsak-secretary.jpg" alt="">
+              <h4>Martin Ouma</h4>
+              <span>Secretary</span>
+              <p>As one of the founding members of Road Safety Association of Kenya, Martin has been at the forefront in the fight to make Kenyan roads safer for all road users especially pedestrians and cyclists.</p>
+              <!--<div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>-->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/lilian1.jpg" alt="">
+              <h4>The Late Lilian Waiganjo</h4>
+              <span>Former Treasurer</span>
+              <p>She was involved with matters of road safety for many years. As a member of the RSAK, she took part in the appeal to the government to establish a specific road safety authority, hence the creation of the NTSA.</p>
+              <!--<div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>-->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Road Safety</h2>
+          <p>It refers to the methods and measures used to prevent road users from being killed or seriously injured.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <a href="vehiclesafety.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/vehicle.png" alt="">
+              </div>
+              <h4><a href="vehiclesafety.html">Vehicle Safety</a></h4>
+              <p>Vehicles should be road-worthy and in pristine conditions</p>
+            </div>
+            </a>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <a href="roaduser.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/road-user.png" alt="">
+              </div>
+              <h4><a href="roaduser.html">Road Users Safety</a></h4>
+              <p>They are pedestrians, cyclists, motorists, vehicle passengers and passengers of on-road public transport.</p>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <a href="roaddesign.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/road.png" alt="">
+              </div>
+              <h4><a href="roaddesign.html">Road Design</a></h4>
+              <p>The designs of our roads should encourage appropriate road user behaviour and safe speeds.</p>
+            </div>
+            </a>
+          </div>
+       
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="training.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/training.png" alt="">
+              </div>
+              <h4><a href="training.html">Training Institutions</a></h4>
+              <p>To support training, education and development programs to produce safe and qualified drivers.</p>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="gvtaction.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/government.png" alt="">
+              </div>
+              <h4><a href="gvtaction.html">Government Action</a></h4>
+              <p>Our Government should enfore road safety policies to enhance road safety.</p>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="media.html">
+            <div class="icon-box">
+              <div class="icon">
+                <img src="assets/img/media.png" alt="">
+              </div>
+              <h4><a href="media.html">Media Awareness</a></h4>
+              <p>Media stations should provide civic education and show the impact of road accidents on victims.</p>
+            </div>
+            </a>
+          </div>
+        
+        </div>
+
+      </div>
+      
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-9 text-lg-start">
+            <h3>Work With Us Today</h3>
+            <p><img class="quote" src="assets/img/quotation.png">Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.<img class="quote-right" src="assets/img/quotation-right.png"></p>
+            <p class="fst-italic">~ Former President Barack Obama</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="membership.html">Be A Member Today</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <div id="blog" class="blog-area">
+      <div class="blog-inner area-padding">
+        <div class="blog-overly"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-title">
+                <h2>Recent News</h2>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-content">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog mb-3">
+                  <div class="single-blog-img">
+                    <a href="https://youtu.be/vCgNGsUWv7Q?si=WQVcYOQaMslus3cp">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/vCgNGsUWv7Q?si=WQVcYOQaMslus3cp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </a>
+                  </div>
+                  <div class="blog-meta">
+                    <span class="date-type">
+                      <i class="fa fa-calendar"></i>19th April, 2025
+                    </span>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="https://youtu.be/vCgNGsUWv7Q?si=WQVcYOQaMslus3cp">DON'T MISS OUT: SHOCKING ROAD SAFETY TIPS REVEALED | The Crimeshield Podcast</a>
+                    </h4>
+                    <p>Join Kingsley, William, and David, Chairman of the Road Safety Association of Kenya, as they discuss the critical importance of road safety on Kenyan roads. Learn key insights and tips to stay safe!</p>
+                  </div>
+                  <span>
+                    <a href="https://youtu.be/vCgNGsUWv7Q?si=WQVcYOQaMslus3cp" class="ready-btn">See Full Video</a>
+                  </span>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog mb-3">
+                  <div class="single-blog-img">
+                    <a href="https://youtu.be/sMBeisN-UEk">
+                      <iframe width="1903" height="776" src="https://www.youtube.com/embed/sMBeisN-UEk" title="7 family members involved in road accident laid to rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <div class="blog-meta">
+                    <span class="date-type">
+                      <i class="fa fa-calendar"></i>17th April, 2024
+                    </span>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="https://youtu.be/sMBeisN-UEk">7 family members involved in road accident laid to rest - KBC Channel 1</a>
+                    </h4>
+                    <p>7 family members involved in road accident laid to rest...</p>
+                  </div>
+                  <span>
+                    <a href="https://youtu.be/sMBeisN-UEk" class="ready-btn">See Full Video</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog mb-3">
+                  <div class="single-blog-img">
+                    <a href="https://youtu.be/SzT63-9TXtg">
+                      <iframe width="1903" height="776" src="https://www.youtube.com/embed/SzT63-9TXtg" title="Manusura wa ajali ya Maungu: Wanafunzi 28 warejea chuoni Kenyatta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </a>
+                  </div>
+                  <div class="blog-meta">
+                    <span class="date-type">
+                      <i class="fa fa-calendar"></i>21st March, 2024
+                    </span>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="https://youtu.be/SzT63-9TXtg">Manusura wa ajali ya Maungu: Wanafunzi 28 warejea chuoni Kenyatta - KTN News Kenya</a>
+                    </h4>
+                    <p>Manusura wa ajali ya Maungu: Wanafunzi 28 warejea chuoni Kenyatta...</p>
+                  </div>
+                  <span>
+                    <a href="https://youtu.be/SzT63-9TXtg" class="ready-btn">See Full Video</a>
+                  </span>
+                </div>
+              </div>
+      
+            </div>
+
+            <span class="seemore">
+              <a href="recentnews.html" class="seemore-btn">See More Videos</a>
+            </span>
+          </div>
+
+          
+
+          <!--<hr class="page-cont-hr">
+          <div class="page-cont">
+              <div class="pagination1">
+                  <li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
+                  <li class="page-item current-page"><a class="page-link active" href="#">1</a></li>
+                  <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                  <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+                  <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                  <li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+                  <li class="page-item next-page"><a class="page-link" href="#">Next</a></li>
+              </div>
+          </div>-->
+        </div>
+      </div>
+      
+      
+    </div><!-- End Blog Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="content px-xl">
+              <h3>Frequently Asked <strong>Questions</strong> (FAQs)</h3>
+              <p>Find answers to commonly asked questions about The Road Safety Association of Kenya</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+
+            <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <span class="num">1.</span>
+                    How can I book an appointment?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    To book an appointment, kindly <a href="#contact">Click Here</a> to fill in a form or give us a call at +254 715 238 797.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <span class="num">2.</span>
+                    Do you accept new members and if so, where can I register?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    To register as a new member, download the application form and upload it to the membership form available <a href="membership.html#mbrform">Here</a>.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <span class="num">3.</span>
+                    Where are you located?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    We are located at Lunga Lunga Plaza Along Lunga Lunga Road, Industrial Area.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <span class="num">4.</span>
+                    Do you accept donations?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    We accept donations. To make a donation, kindly <a href="membership.html#appform">Click Here</a> to see the step-by-step procedures.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact1">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>We'd love to hear from you! We are always ready to answer any questions that you might have for us. Give us a call today or fill in this form.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Lunga Lunga Plaza Along Lunga Lunga Road, Industrial Area</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@roadsafetyassociationofkenya.org</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+254 715 238 797</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.777024545104!2d36.85655911532234!3d-1.309054036022041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f117840760069%3A0x4d81ad362e1788a1!2sLunga%20Lunga%20Plaza%2C%20Lunga%20Lunga%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1668073507086!5m2!1sen!2ske"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formsubmit.co/9bc149dda2009a1b2773bdc243e48119" method="post" >
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="Name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="Email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="Subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="Message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+              <input type="hidden" name="_captcha" value="false">
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <p>Road Safety Association of Kenya</p>
+          </a>
+          <h5>Working Hours:</h5>
+          <p>MON - FRI: 8.00AM - 5.00PM</p>
+          <p>SAT: 8.00AM - 1.00PM</p>
+          <p>SUN: Closed</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.facebook.com/safe.road.kenya/" class="facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Road Safety</h4>
+          <ul>
+            <li><a href="vehiclesafety.html">Vehicle Safety</a></li>
+            <li><a href="roaduser.html">Road Users' Safety</a></li>
+            <li><a href="roaddesign.html">Road Design</a></li>
+            <li><a href="gvtaction.html">Government Action</a></li>
+            <li><a href="media.html">Media Awareness</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-contact text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            <strong>LOCATION: </strong>Lunga Lunga Plaza <br>
+            Along Lunga Lunga Road,<br>
+            Industrial Area, Nairobi <br><br>
+            <strong>PHONE:</strong> +254 715 238 797<br>
+            <strong>EMAIL:</strong> info@roadsafetyassociationofkenya.org<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; 2025 <strong><span>Road Safety Association of Kenya</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id=""></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="http:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http:////cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.counter').counterUp({
+          delay: 20,
+          time: 1500
+      });
+  });
+
+  /*For the product pagination1*/
+  function getPageList(totalPages, page, maxLength){
+        function range(start, end){
+            return Array.from(Array(end - start + 1), (_, i) => i + start);
+        }
+
+        var sideWidth = maxLength < 9 ? 1 : 2;
+        var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+        var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+        if(totalPages <= maxLength){
+            return range(1, totalPages);
+        }
+
+        if(page <= maxLength - sideWidth - 1 - rightWidth){
+            return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+        }
+
+        if(page >= totalPages - sideWidth - 1 - rightWidth){
+            return range(1, sideWidth).concat(0, range(totalPages- sideWidth - 1 - rightWidth - leftWidth, totalPages));
+        }
+
+        return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+        }
+
+        $(function(){
+        var numberOfItems = $(".card-content .single-blog").length;
+        var limitPerPage = 6; //How many card items visible per a page
+        var totalPages = Math.ceil(numberOfItems / limitPerPage);
+        var paginationSize = 5; //How many page elements visible in the pagination1
+        var currentPage;
+
+        /*function showPage(whichPage){
+            if(whichPage < 1 || whichPage > totalPages) return false;
+
+            currentPage = whichPage;
+
+            $(".card-content .single-blog").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+
+            $(".pagination1 li").slice(1, -1).remove();
+
+            getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+            $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
+            .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link")
+            .attr({href: "javascript:void(0)"}).text(item || "...")).insertBefore(".next-page");
+            });
+
+            $(".previous-page").toggleClass("disable", currentPage === 1);
+            $(".next-page").toggleClass("disable", currentPage === totalPages);
+            return true;
+        }
+
+        $(".pagination").append(
+            $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Prev")),
+            $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Next"))
+        );
+
+        $(".card-content").show();
+        showPage(1);
+
+        $(document).on("click", ".pagination1 li.current-page:not(.active)", function(){
+            return showPage(+$(this).text());
+        });
+
+        $(".next-page").on("click", function(){
+            return showPage(currentPage + 1);
+        });
+
+        $(".previous-page").on("click", function(){
+            return showPage(currentPage - 1);
+        });*/
+     });
+
+</script>
+
+</body>
+
+
+</html>
+
+
+
+
